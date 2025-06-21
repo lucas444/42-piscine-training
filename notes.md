@@ -4,8 +4,8 @@
 
 caractères d'une notation spéciale
 
-|Notation En C | CODE ASCII| ABREVIATION USUELLE|
-|--------------|-----------|--------------------|
+|Notation En C | CODE ASCII| ABREVIATION USUELLE|Signfication|
+|--------------|-----------|--------------------|------------|
 |\a|07|BEL|Cloche ou bip|
 |\b|08|BS|Retour arriere|
 |\f|0C|FF|saut de page|
