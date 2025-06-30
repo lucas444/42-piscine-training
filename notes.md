@@ -1,6 +1,6 @@
 # Notes C
 
-## Chapitre 2
+## caractère
 
 caractères d'une notation spéciale
 
@@ -17,5 +17,7 @@ caractères d'une notation spéciale
 |\'||||
 |\"||||
 |\?||||
+
+## Operateur 
 
 
