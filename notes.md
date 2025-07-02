@@ -21,6 +21,18 @@ caractères d'une notation spéciale
 ## Operateur 
 
 
+## Opérateurs arithmétiques en C
+
+| Opérateur | Nom                  | Description                                 | Exemple (a=10, b=3) | Résultat |
+|-----------|----------------------|---------------------------------------------|----------------------|----------|
+| `+`       | Addition              | Additionne deux valeurs                     | `a + b`              | `13`     |
+| `-`       | Soustraction          | Soustrait la deuxième valeur à la première  | `a - b`              | `7`      |
+| `*`       | Multiplication        | Multiplie deux valeurs                      | `a * b`              | `30`     |
+| `/`       | Division entière      | Divise la première valeur par la seconde    | `a / b`              | `3`      |
+| `%`       | Modulo (reste)        | Donne le reste de la division entière       | `a % b`              | `1`      |
+| `++`      | Incrémentation        | Ajoute 1 à la variable                      | `a++` ou `++a`       | `11`     |
+| `--`      | Décrémentation        | Soustrait 1 à la variable                   | `a--` ou `--a`       | `9`      |
+
 ### Opérateurs logiques (`booléens`) en C
 
 | Opérateur | Nom                  | Description                                   |
@@ -39,3 +51,16 @@ caractères d'une notation spéciale
 |~		|NON bit à bit (NOT)	|Inverse tous les bits (complément à un)		 |
 |<<		|Décalage à gauche	|Décale les bits vers la gauche (multiplie par 2^n)	 |
 |>>		|Décalage à droite	|Décale les bits vers la droite (divise par 2^n, arrondi)|
+
+
+## Opérateurs de comparaison en C
+
+| Opérateur | Nom                       | Description                                             | Exemple (a=10, b=3)  | Résultat |
+|-----------|---------------------------|---------------------------------------------------------|----------------------|----------|
+| `==`      | Égal à                    | Renvoie vrai si les deux valeurs sont égales            | `a == b`             | `false`  |
+| `!=`      | Différent de              | Renvoie vrai si les deux valeurs sont différentes       | `a != b`             | `true`   |
+| `>`       | Supérieur à              	| Vrai si la première valeur est strictement plus grande  | `a > b`              | `true`   |
+| `<`       | Inférieur à               | Vrai si la première valeur est strictement plus petite  | `a < b`              | `false`  |
+| `>=`      | Supérieur ou égal à	| Vrai si la première valeur est supérieure ou égale      | `a >= b`             | `true`   |
+| `<=`      | Inférieur ou égal à       | Vrai si la première valeur est inférieure ou égale      | `a <= b`             | `false`  |
+
