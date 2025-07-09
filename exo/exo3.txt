@@ -1,0 +1,19 @@
+1)
+a) long 12
+b)float 11.75
+c) long 4
+d) int 0
+e) int 1
+f) float 1
+g) long 5
+h) long 0
+i) long 1
+j) float 1.75
+k) float 6.75
+
+2) 
+z = (a > b ? a:b) + (a <= b ? a :b);
+
+if (a > b)
+
+
